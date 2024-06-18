@@ -1,4 +1,4 @@
 FROM nginx
 
-copy Sample /user/nginx/html
+copy index.html /user/nginx/html
 EXPOSE 80
